@@ -39,7 +39,7 @@ $ tree
 * 起動
 
 ```
-$ docker-compose up &
+$ docker-compose up -d
 ```
 
 * ページアクセス

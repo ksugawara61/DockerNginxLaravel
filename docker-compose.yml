@@ -9,7 +9,9 @@ services:
       - "443:443"
     depends_on:
       - php
+    restart: unless-stopped
   php:
     build:
       context: .
       dockerfile: ./containers/php/Dockerfile
+    restart: unless-stopped
